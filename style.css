@@ -1,0 +1,1303 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: Cooper;
+    src: url(./CooperLtBTWXXLight.ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    background-color: cadetblue;
+}
+
+#nav{
+    width: 100%;
+    height: 15vh;
+    background-color: rgb(255, 255, 255);
+    padding: 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+#nav h1{
+    font-family: cooper;
+    font-weight: 500;
+    font-size: 2.3vw;
+    -webkit-transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    -o-transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+#nav h1:hover{
+    font-size: 2.1vw;
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+#link >a{
+    text-decoration: none;
+    margin-left: 4vw;
+    color: black;
+    font-size: 1.5vw;
+}
+
+#link a:hover{
+   border-bottom: 4px solid rgb(9, 185, 27);
+}
+
+#link button{
+    border-radius: 50px;
+    margin-left: 2vw;
+    width: 7vw;
+    height: 6vh;
+    background-color: rgb(178, 162, 162);
+}
+button > a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3vw;
+}
+
+#section1{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#section1 h1{
+    z-index: 9;
+    position: absolute;
+    top: 29%;
+    left: 18%;
+    font-size: 6vw;
+    font-family: "cooper";
+    font-weight: 400;
+    text-align: center;
+    width: 60vw;
+}
+
+#section1 h1::after{
+    content: " ";
+    width: 26vw;
+    height: 4vh;
+    position: absolute;
+    bottom: -10%;
+    left: 29%;
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+}
+#section1 #box1{
+    position: absolute;
+    top: 15%;
+    left: 6%;
+    width: 25vw;
+    height: 75vh;
+    background-color: blueviolet;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-75.jpg?w=1200&h=1731&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631017685&s=333b9abfa858cf7b8685e28a597dfa08);
+    background-size: cover;
+    -webkit-transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    -o-transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+#section1 #box1:hover{
+    top: 12%;
+}
+
+#section1 #box2{
+    position: absolute;
+    top: 5%;
+    left: 60%;
+    width: 15vw;
+    height: 30vh;
+    background-color: rgb(43, 226, 211);
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-23.jpg?w=1200&h=1008&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631003343&s=88354e145206a527c989b49f760a89d3);
+    background-size: cover;
+    -webkit-transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    -o-transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+#section1 #box2:hover{
+    top: 4%;
+}
+
+#section1 #box3{
+    position: absolute;
+    top: 45%;
+    left: 75%;
+    width: 18vw;
+    height: 40vh;
+    background-color: rgb(226, 86, 43);
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-81.jpg?w=1200&h=1200&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631005177&s=21e4c0bb5ce83f57e69f404637d61265);
+    background-size: cover;
+    -webkit-transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    -o-transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+#section1 #box3:hover{
+    top: 43%;
+}
+
+#section1 #sec1txt{
+    padding: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: absolute;
+    top: 70%;
+    left: 39%;
+    width: 20vw;
+    height: 10vh;
+}
+
+#sec1txt button{
+    overflow: hidden;
+    position: relative;
+    border-radius: 50px;
+    width: 5vw;
+    height: 5vh;
+    font-size: 2vw;
+    border: 2px solid rgb(0, 0, 0);
+}
+#sec1txt button::after{
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+#section2{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 10vh;
+    color: white;
+    width: 100%;
+    height: 70vh;
+    text-align: center;
+    background-color: black;
+    font-family: cooperl;
+   
+}
+
+#section2 h1{
+    position: relative;
+    font-family: cooper;
+    font-weight: 200;
+    width: 60vw;
+    font-size: 3.2vw;
+}
+
+#section2 h1::after{
+    content: " ";
+    position: absolute;
+    bottom: -4%;
+    left: 36.5%;
+    width: 14.5vw;
+    height: 10vh;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+}
+#section2 h3{
+    font-family: cooper;
+    font-weight: 200;
+    width: 60vw;
+}
+
+#section2 #sec2box1{
+    position: absolute;
+    top: 11%;
+    left: 33%;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: chartreuse;
+}
+
+#sec2box2{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 30px;
+}
+
+#sec2box2 a{
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+}
+
+#sec2box2 #sec2box2a{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50px;
+    width: 8vw;
+    height: 6vh;
+    border: 1px solid green;
+    background-color: rgb(43, 34, 34);
+}
+
+#section3{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 100%;
+    height: 140vh;
+    background-color: rgb(101, 120, 158);
+}
+#section3 #leftt{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 5%;
+    width: 50%;
+    height: 100%;
+}
+#leftt #left{
+    width: 45%;
+    height: 100%;
+}
+
+#left #lefttop{
+    margin-top: 20px;
+    width: 100%;
+    height: 70%;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-69.jpg?w=800&h=2518&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002290&s=33b3b284e2298e725e8837d662a3f3bd);
+    background-size: cover;
+}
+
+#left #leftbottom{
+    margin-top: 20px;
+    width: 100%;
+    height: 30%;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-82.jpg?w=800&h=1200&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002337&s=2c36e03420200c6347fed613ee6ed7d3);
+    background-size: cover;
+}
+
+#leftt #middle{
+    width: 50%;
+    height: 100%;
+}
+
+#middletop{
+    width: 100%;
+    height: 50%;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-10.jpg?w=1200&h=750&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002227&s=e9befa27c3cb6b4742db66b7d49131e1);
+    background-size: cover;
+}
+
+#middlebottom{
+    margin-top: 20px;
+    width: 100%;
+    height: 50%;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-2.jpg?w=1200&h=1353&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002176&s=5d4bc2c79348dc9d5effc2ed0a267366);
+    background-size: cover;
+}
+
+#section3 #right{
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+}
+#right h1{
+    position: relative;
+    font-size: 3.5vw;
+    width: 70%;
+    font-family: cooper;
+    margin-top: 20vh;
+    line-height: 10vh;
+}
+#right h1::after{
+    content: " ";
+    width: 13%;
+    height: 3%;
+    position: absolute;
+    top: 40%;
+    left: 22%;
+    background-image: url(https://thisisdigital.co.uk/dist/images/underline-green.svg);
+}
+#right h4{
+    margin-top: 8vh;
+    font-family: cooper;
+    font-weight: 200;
+    font-size: 1.4vw;
+    line-height: 4vh;
+    width: 70%;
+}
+#righttext{
+    width: 40vw;
+    margin-top: 10vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+#righttext #cir{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: rgb(62, 177, 202);
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/team/Team-Transparent/Nouri-Messaoud-2.png?w=400&h=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1634030846&s=944b7a533ea72d26afc37cdf33752fd9);
+    background-size: cover;
+}
+#righttext h3{
+    font-family: Cooper;
+    font-size: 2vw;
+}
+#righttext button{
+    width: 150px;
+    height: 50px;
+}
+#righttext button i{
+    font-size: 1vw;
+}
+
+#section4{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#section4 p{
+    width: 60vw;
+    font-size: 4vw;
+     font-family: cooper; 
+    text-align: center;
+    font-weight: lighter;
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+        -ms-transform: translate(-50%,0%);
+            transform: translate(-50%,0%);
+}
+
+#section4 p::after{
+    content: " ";
+    position: absolute;
+    top: -2%;
+    left: 17%;
+    width: 11vw;
+    height: 12vh;
+    background-image: url(https://thisisdigital.co.uk/dist/images/circle-green.svg);
+}
+#section4 #brandIcon{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    -webkit-transform: translate(-50%,0);
+        -ms-transform: translate(-50%,0);
+            transform: translate(-50%,0);
+    width: 80vw;
+    height: 60vh;
+}
+#brandIcon img{
+    margin-left: 5vw;
+   margin-top: 10vh;
+    width: 10vw;
+    height: 6vh;
+}
+#section4 #brandimg{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    -webkit-transform: translate(-50%,0%);
+        -ms-transform: translate(-50%,0%);
+            transform: translate(-50%,0%);
+    width: 80vw;
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
+}
+#brandimg > img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    width: 10vw;
+    height: 7vh;
+}
+
+
+#section5{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+#section5 #sec5box{
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    width: 90vw;
+    height: 70vh;
+    color: white;
+    background-color: chartreuse;
+}
+
+#sec5box #sec5left{
+    position: relative;
+    width: 49%;
+    height: 100%;
+    background-color: blueviolet;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/work/Golf.jpeg?w=1200&h=900&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1635867985&s=5e7cee6801a656523b56b64a34d04786);
+    background-size: cover;
+    -webkit-transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    -o-transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+#sec5box #sec5left:hover{
+    height: 103%;
+}
+
+#sec5box #sec5right{
+    width: 49%;
+    height: 100%;
+   
+    background-color: rgb(43, 226, 186);
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/work/work-thumbnail-03.jpg?w=1200&h=900&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1627573623&s=efbebf8d2134c057c66886c970e18069);
+    background-size: cover;
+    -webkit-transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    -o-transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+    transition: cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
+
+#sec5box #sec5right:hover{
+    height: 103%;
+}
+
+#sec5left #sec5text-left{
+    padding: 20px;
+    position: relative;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    -webkit-box-shadow: inset 10px 10px 150px 20px black;
+            box-shadow: inset 10px 10px 150px 20px black;
+}
+
+#sec5right #sec5text-right{
+    padding: 20px;
+    position: relative;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    -webkit-box-shadow: inset 10px 10px 150px 20px black;
+            box-shadow: inset 10px 10px 150px 20px black;
+}
+
+#sec5text-left img{
+    width: 8vw;
+    height: 7vh;
+}
+
+#sec5text-right img{
+    width: 7vw;
+    height: 7vh;
+}
+
+#sec5text-left h1{
+    font-size: 3vw;
+    font-family: cooper;
+    font-weight: 500;
+    width: 70%;
+    position: absolute;
+    bottom: 22%;
+    left: 4%;
+}
+
+#sec5text-left-bottom{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+#sec5text-left-bottom #switchl{
+    overflow: hidden;
+    position: relative;
+    border-radius: 50px;
+    margin: 5px;
+     width: 5vw;
+     height: 4.5vh;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+     -webkit-box-align: center;
+         -ms-flex-align: center;
+             align-items: center;
+     border: .2px solid rgb(240, 234, 234);
+}
+
+#switchl i{  
+    font-weight: 100;
+}
+
+#switchl #switchx{
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+#sec5text-right h1{
+    font-size: 3vw;
+    font-family: cooper;
+    font-weight: 500;
+    width: 75%;
+    position: absolute;
+    bottom: 22%;
+    left: 4%;
+}
+
+#sec5text-right-bottom{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+#sec5text-right-bottom #switchr{
+    overflow: hidden;
+    position: relative;
+    border-radius: 50px;
+    margin: 5px;
+     width: 5vw;
+     display: -webkit-box;
+     display: -ms-flexbox;
+     display: flex;
+     -webkit-box-pack: center;
+         -ms-flex-pack: center;
+             justify-content: center;
+     -ms-flex-line-pack: center;
+         align-content: center;
+     height: 4.5vh;
+     border: .2px solid rgb(240, 234, 234);
+}
+
+#switchr i{
+    font-weight: 100;
+}
+
+#switchr #switchy{
+    position: absolute;
+    top: 0%;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+#section5 #lastb{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    bottom: 3%;
+    left: 50%;
+    -webkit-transform: translate(-50%,0);
+        -ms-transform: translate(-50%,0);
+            transform: translate(-50%,0);
+     width: 35vw;
+     height: 10vh;
+}
+
+#lastb #lastcir{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(54, 182, 205);
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/team/Team-Transparent/Demie-Loizou-1.png?w=400&h=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638459673&s=d95f4d84ca3dc1bf7c15f06aed800740);
+    background-size: cover;
+}
+
+#lastb #button{
+    overflow: hidden;
+    position: relative;
+    font-size: 1.3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50px;
+    width: 8vw;
+    height: 6vh;
+}
+
+#button p{
+    position: absolute;
+    z-index: 99;
+    left: 4%;
+}
+
+#button i{
+    position: absolute;
+    right: 6%;
+    z-index: 99;
+}
+
+#button #buttoncover{
+    position: absolute;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+
+#section6{
+    width: 100%;
+    height: 100vh;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+  
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: rgb(250, 250, 250);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+  
+.swiper-slide h2{
+    width: 62%;
+    letter-spacing: 2px;
+    font-family: cooper;
+    font-size: 3vw;
+}
+  
+.swiper-slide h3{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    padding-left: 20px;
+}
+  
+.swiper-slide h3::after{
+    content: " ";
+    position: absolute;
+    top: 15%;
+    left: 0%;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgb(0, 255, 26);
+}
+img{
+    margin-bottom: 20px;
+    width: 10%;
+    height: 8%;
+}
+#section7{
+    position: relative;
+    width: 100%;
+    height: 120vh;
+    background-color: rgb(0, 0, 0);
+}
+
+#sect7top{
+    width: 100%;
+    height: 25vh;
+    background-color: white;
+}
+
+#sect7middle{
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%,0);
+        -ms-transform: translate(-50%,0);
+            transform: translate(-50%,0);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 30px;
+    width: 70%;
+    height: 40%;
+    background-color: black;
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/This-is-digital-LOW-RES-239.jpg?w=1200&h=394&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1631002673&s=a8225dd79a8eb0d05ce0db6b2a5efd03);
+    background-size: cover;
+    text-align: center;
+}
+
+#section7 #sect7bottom{
+    padding-left: 8vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 1vw;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    height: 50vh;
+}
+#sect7middle > h1{
+    font-family: Cooper;
+    font-weight: 400;
+    color: white;
+    margin-top: 60px;
+}
+
+#sect7box{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: relative;
+     width: 35vw;
+     height: 10vh;  
+}
+
+#sect7box #sect7cir{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(54, 182, 205);
+    background-image: url(https://optimise2.assets-servd.host/squalid-loris/production/uploads/images/team/Team-Transparent/Demie-Loizou-1.png?w=400&h=400&q=80&fm=webp&fit=crop&fp-x=0.5&fp-y=0.5&dm=1638459673&s=d95f4d84ca3dc1bf7c15f06aed800740);
+    background-size: cover;
+}
+
+#sect7box #button{
+    overflow: hidden;
+    position: relative;
+    font-size: 1.3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-radius: 50px;
+    width: 13vw;
+    height: 6vh;
+    color: white;
+    border: 2px solid white;
+}
+
+#sectbox #button p{
+    position: absolute;
+    z-index: 99;
+    left: 4%;
+}
+
+#sect7box #button i{
+  
+    position: absolute;
+    right: 6%;
+    z-index: 99;
+}
+
+#sect7box #button #buttoncover{
+    position: absolute;
+    border-radius: 50px;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+
+#sect7bottom #sect7box1{
+    position: relative;
+    padding: 4vw 2vw;
+    width: 23vw;
+    height: 100%;
+   font-size: 1.5vw;
+   color: white;
+   font-family: Cooper;
+}
+#sect7box1 > img{
+    position: absolute;
+    top: 29%;
+    left: 5%;
+    width: 11.5vw;
+    height: 11vh;
+}
+#sect7bottom #sect7box2{
+    padding: 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: .5vw;
+    width: 13vw;
+    height: 100%;
+    color: white;
+}
+#sect7bottom  a{
+    text-decoration: none;
+    font-size: 2vw;
+    color: white;
+}
+#sect7bottom #sect7box3{
+    padding: 3vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: .5vw;
+    width: 13vw;
+    height: 100%;
+    color: white;
+
+}
+#sect7bottom #sect7box4{
+    padding: 2vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: .7vw;
+    width: 20vw;
+    height: 100%;
+    color: white;
+    font-weight: 200;
+
+}
+#sect7bottom #sect7box5{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 15vw;
+    height: 100%;
+}
+#sect7box5 > img{
+    width: 50%;
+    height: 20%;
+}
+
+#section7 #sect7bottomline{
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    -webkit-transform: translate(-50%,-50%);
+        -ms-transform: translate(-50%,-50%);
+            transform: translate(-50%,-50%);
+    width: 80%;
+    height: 1px;
+    background-color: aliceblue;
+}
+#section7 > h1{
+    position: absolute;
+    bottom: 4%;
+    left: 10%;
+    font-size: 1.5vw;
+    font-family: cooper;
+    font-weight: 300;
+    color: white;
+}
+
+@media (max-width: 500px) {
+    #nav h1{
+        font-size: 5vw;
+    }
+    #link >a{
+        display: none;
+    }
+    #link button{
+        width: 20vw;
+    }
+    button > a{
+        font-size: 3vw;
+    }
+    #section1 > h1{
+        left: 18%;
+        top: 1%;
+    }
+    #section1 >h1::after{
+        width: 25vw;
+        height: 2vh;
+    }
+    #section1 #box1{
+        width: 80vw;
+        top: 25%;
+    }
+    #section1 #box1:hover{
+        top: 24%;
+    }
+    #section1 #box2{
+        display: none;
+    }
+    #section1 #box3{
+        display: none;
+    }
+    #section1 #sec1txt{
+        top: 15%;
+        left: 29%;
+        width: 50vw;
+    }
+    #sec1txt button{
+        width: 10vw;
+        font-size: 3vw;
+    }
+    #section2 #sec2box1{
+        top: 23%;
+        left: 17%;
+    }
+    #section2{
+        gap: 5vh;
+    }
+    #section2 h1{
+        width: 80vw;
+        font-size: 5vw;
+        line-height: 4vh;
+    }
+    #section2 h1::after{
+        width: 22vw;
+        left: 23%;
+        bottom: -9%;
+        height: 7vh;
+    }
+    #sec2box2 a{
+        font-size: 5vw;
+    }
+    #sec2box2 #sec2box2a{
+        width: 13vw;
+        font-size: 4vw;
+    }
+    #section3{
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       -webkit-box-orient: vertical;
+       -webkit-box-direction: normal;
+           -ms-flex-direction: column;
+               flex-direction: column;
+    }
+    #section3 #leftt{
+        height: 50%;
+        width: 90%;
+    }
+    #section3 #right{
+        height: 50%;
+        width: 100%;
+    }
+    #right h1{
+        margin-top: 3vh;
+        font-size: 6vw;
+        line-height: 5vh;
+    }
+    #right h1::after{
+        width: 35%;
+        height: 10%;
+        top: 50%;
+        left: 18%;
+    }
+    #right h4{
+        font-size: 3vw;
+        margin-top: 5vh;
+    }
+    #righttext{
+        margin-top: 2vh;
+        width: 60vw;
+    }
+    #section4 p{
+        top: 3%;
+        font-size: 5vw;
+        width: 80vw;
+    }
+    #section4 p::after{
+        width: 15vw;
+        height: 7vh;
+        top: -20%;
+        left: 18%;
+     }
+     #brandIcon img{
+        margin-top: 5vh;
+        width: 17vw;
+     }
+     #brandimg > img{
+        width: 40vw;
+        height: 15vh;
+     }
+     #section5 #sec5box{
+        top: 40%;
+        height: 90vh;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+     }
+     #sec5box #sec5left{
+        height: 50%;
+        width: 100%;
+     }
+     #sec5left #sec5text-left{
+        height: 50%;
+        width: 100%;
+     }
+     #sec5box #sec5right{
+        
+        height: 50%;
+        width: 100%;
+     }
+     #sec5right #sec5text-right{
+        width: 100%;
+        height: 50%;
+     }
+     #sec5box #sec5right:hover{
+        height: 50%;
+     }
+     #sec5box #sec5left:hover{
+        height: 50%;
+     }
+     #sec5text-left img{
+        width: 15vw;
+     }
+     #sec5text-right img{
+        width: 15vw;
+     }
+     #sec5text-left h1{
+        bottom: 30%;
+        font-size: 4vw;
+     }
+     #sec5text-right h1{
+        bottom: 30%;
+        font-size: 4vw;
+     }
+     #sec5text-left-bottom{
+        font-size: 4vw;
+     }
+     #sec5text-right-bottom{
+        font-size: 4vw;
+     }
+     #sec5text-left-bottom #switchl{
+        width: 18vw;
+        height: 5vh;
+     }
+     #sec5text-right-bottom #switchr{
+        width: 18vw;
+        height: 5vh;
+     }
+     #section5 #lastb{
+        width: 70vw;
+     }
+     #lastb #button{
+        width: 17vw;
+        height: 8vh;
+        font-size: 3vw;
+     }
+     .swiper-slide h2{
+        width: 80%;
+        font-size: 6vw;
+     }
+     img{
+        margin-bottom: 40px;
+        width: 2 0%;
+     }
+     #section7{
+        height: 160vh;
+        width: 100%
+     }
+     #sect7middle{
+        height: 30%;
+        width: 80%;
+     }
+     #sect7middle > h1{
+        margin-top: 170px;
+        font-size: 4vw;
+     }
+     #sect7box{
+        width: 70vw;
+     }
+     #sect7box #button{
+        width: 15vw;
+        font-size: 2.3vw;
+     }
+     #sect7bottom #sect7box1{
+        font-size: 3vw;
+       position: absolute;
+       bottom: -25%;
+       width: 80vw;
+       height: 30%;
+       display: -webkit-box;
+       display: -ms-flexbox;
+       display: flex;
+       gap: 2vw;
+     }
+     #sect7box1 > img{
+        left: 43%;
+        top: 3%;
+        width: 24vw;
+     }
+     #sect7bottom #sect7box5{
+        font-size: 2vw;
+        position: absolute;
+        bottom: -20%;
+        gap: 3vw;
+        left: 20%;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        width: 60vw;
+     }
+     #sect7bottom #sect7box3{
+        margin-left: 12vw;
+     }
+     #sect7bottom #sect7box4{
+       margin-left: 14vw;
+        font-size: 1.5vw;
+     }
+     #section7 > h1{
+        font-size: 5vw;
+     }
+}
